@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //Display current date and time
-    var currentDate = moment().format('MMMM Do YYYY, h:mm:ss a');
+    var currentDate = moment().format('MMMM Do YYYY');
     $("#currentDay").text("Today's Date is: " + currentDate);
 
     //Onclick function to save user input to local storage
